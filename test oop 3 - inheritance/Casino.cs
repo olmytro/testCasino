@@ -53,9 +53,9 @@ namespace test_oop_3___inheritance
                 else
                 {
                     Console.WriteLine($"Wrong number. Write again. Осталось попыток:");
+                    Choose--;
                     //Console.WriteLine(Choose - i -1);
                 }
-
             }
             while (Choose > 0);
         }
